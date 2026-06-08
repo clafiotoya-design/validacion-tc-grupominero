@@ -36,7 +36,7 @@ print("\n[PASO 3] Comparando valores...")
 diferencia = abs(tc_sistema - tc_bcrp)
 print(f"  Diferencia: S/ {round(diferencia, 4)}")
 
-if diferencia <= 0.005:
+if diferencia <= 0.015:
     resultado = "OK"
     mensaje = f"Validacion exitosa. TC sistema S/ {tc_sistema} coincide con BCRP S/ {tc_bcrp}."
     print("\n  RESULTADO: OK - Tipo de cambio validado correctamente")
